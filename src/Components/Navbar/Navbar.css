@@ -2,23 +2,16 @@ nav {
     position: fixed;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 32px;
     width: 100%;
-    padding: 24px;
+    padding: 32px;
     max-width: 500px;
     margin: 0 auto;
-    /* background-color: var(--main-bg-color); */
-
+    height: 105px;
 }
 
 .navbar {
-    display: flex;
     height: 70px;
-    padding: 8px;
-    background-color: var(--main-bg-color);
-    box-shadow: 0 0 16px 0 black;
-    border-radius: 8px;
-    border: 1px solid black;
 }
 
 .container {

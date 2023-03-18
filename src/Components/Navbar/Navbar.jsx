@@ -15,7 +15,7 @@ function Navbar() {
     return (
         <>
             <nav>
-                <div className="navbar">
+                <div className="navbar darkCard">
                     <ul className="container">
 
                         {navList.map((nav, i) => (

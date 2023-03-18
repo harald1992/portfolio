@@ -13,7 +13,7 @@ main {
   max-width: 500px;
   margin: 0 auto;
   padding: 32px;
-  padding-bottom: 100px;
+  padding-bottom: 105px;
   /* padding for navbar */
   text-align: center;
   max-height: 100vh;
@@ -38,9 +38,7 @@ main::-webkit-scrollbar-thumb {
   outline: 1px solid slategrey;
 }
 
-main::-webkit-scrollbar {
-  /* display: none; */
-}
+
 
 
 .darkCard {

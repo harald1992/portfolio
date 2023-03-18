@@ -21,12 +21,11 @@ export default function DigitalBusinessCard() {
 
 
                 <h2>About</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem molestiae provident asperiores! Animi expedita porro excepturi cumque, repellendus enim ea velit adipisci fugit accusantium quis possimus ad voluptatem, veniam nemo.</p>
+                <p>Hello, my name is Harald and I am a scrum master and developer, currently working at Capgemini. </p>
 
+                <p>As a scrum master, I have mostly worked with SAFe as a framework.</p>
 
-                <h2>Interests</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem molestiae provident asperiores! Animi expedita porro excepturi cumque, repellendus enim ea velit adipisci fugit accusantium quis possimus ad voluptatem, veniam nemo.</p>
-
+                <p>As a developer, I have mostly worked with Angular and a bit of react.</p>
 
             </div>
 
