@@ -15,8 +15,6 @@ function Navbar() {
     return (
         <>
             <nav>
-                <div id="lala" style={{ color: 'white' }}>{location.pathname}</div>;
-
                 <div className="navbar">
                     <ul className="container">
 
