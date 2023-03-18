@@ -1,7 +1,7 @@
 import profilePicture from '../../Assets/LinkedinProfilePicture.jpg';
 import styles from './DigitalBusinessCard.module.css';
 
-import { FaLinkedin, FaEnvelope, FaTwitter, FaFacebook, FaInstagram, FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 
 
@@ -10,7 +10,7 @@ export default function DigitalBusinessCard() {
     return (
         <>
             <div className="flex-column">
-                <img className={styles.profilePicture} src={profilePicture} alt="Profile Picture" />
+                <img className={styles.profilePicture} src={profilePicture} alt="Profile" />
                 <h1>Harald Hiemstra</h1>
                 <p className="margin-0">Scrum Master & Developer</p>
 

@@ -1,11 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
-import { Link, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
-
-import Home from './Pages/Home/Home';
+// import Home from './Pages/Home/Home';
 import References from './Pages/References/References';
-
 import Navbar from './Components/Navbar/Navbar';
 import ParticleCanvas from './Components/ParticleCanvas/ParticleCanvas';
 import DigitalBusinessCard from './Pages/DigitalBusinessCard/DigitalBusinessCard';

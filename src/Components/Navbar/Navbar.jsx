@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Link, Route, Routes, useLocation } from "react-router-dom";
+import React from 'react';
+import { Link, useLocation } from "react-router-dom";
 import './Navbar.css';
 
 import { IoAccessibilitySharp, IoChatbubbles } from "react-icons/io5";
