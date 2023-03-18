@@ -3,24 +3,35 @@ import './App.css';
 import { Link, Route, Routes } from "react-router-dom";
 
 
-import Home from './Components/Home/Home';
+import Home from './Pages/Home/Home';
+import References from './Pages/References/References';
+
 import Navbar from './Components/Navbar/Navbar';
-import References from './Components/References/References';
+import ParticleCanvas from './Components/ParticleCanvas/ParticleCanvas';
+import DigitalBusinessCard from './Pages/DigitalBusinessCard/DigitalBusinessCard';
 
 function App() {
   return (
-    <div className="App">
-      <header className="">
+    <div className="app">
+      <ParticleCanvas />
+
+
+      <main>
+        <div className="darkCard">
+
+          <Routes>
+            <Route path={`/`} element={<DigitalBusinessCard />}></Route>
+            <Route path={`/references`} element={<References />}></Route>
+
+            <Route path="*" element={<h2>404: Not Found</h2>}></Route>
+          </Routes>
+        </div>
+      </main>
+
+
+      <footer>
         <Navbar></Navbar>
-      </header>
-
-      <Routes>
-        <Route path={`/`} element={<Home />}></Route>
-        <Route path={`/references`} element={<References />}></Route>
-
-        <Route path="*" element={<h2>404: Not Found</h2>}></Route>
-      </Routes>
-
+      </footer>
     </div>
   );
 }

@@ -8,8 +8,8 @@ function Home() {
     return (
         <>
             <h1>Home</h1>
-/
-            <Link to="/">HOME <IoAccessibilitySharp /></Link>
+
+            {/* <Link to="/">HOME <IoAccessibilitySharp /></Link> */}
 
 
         </>
