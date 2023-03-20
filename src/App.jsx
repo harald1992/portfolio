@@ -9,7 +9,7 @@ import DigitalBusinessCard from './Pages/DigitalBusinessCard/DigitalBusinessCard
 
 function App() {
   return (
-    <div className="app">
+    <>
       <ParticleCanvas />
 
 
@@ -29,7 +29,7 @@ function App() {
       <footer>
         <Navbar></Navbar>
       </footer>
-    </div>
+    </>
   );
 }
 
