@@ -5,8 +5,8 @@ import './Navbar.css';
 import { IoAccessibilitySharp, IoChatbubbles } from "react-icons/io5";
 
 const navList = [
-    { name: 'Home', url: '/', icon: <IoAccessibilitySharp /> },
-    { name: 'References', url: '/references', icon: <IoChatbubbles /> },
+    { name: 'About', url: '/', icon: <IoAccessibilitySharp /> },
+    { name: 'Career', url: '/career', icon: <IoChatbubbles /> },
 ]
 
 function Navbar() {

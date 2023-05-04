@@ -68,3 +68,11 @@ a:hover,
 button:hover {
   color: white;
 }
+
+
+.profilePicture {
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 50%;
+
+}
